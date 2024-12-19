@@ -1,0 +1,80 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+h1 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Results Container */
+.results-container {
+    width: 80%;
+    max-width: 800px;
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Result Item */
+.result-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.result-price {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Buttons */
+a.btn {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
